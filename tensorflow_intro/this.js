@@ -12,3 +12,7 @@ if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
         video.play();
     });
 }
+
+
+//overwrites text inside "objects" card
+$(".card-text").text("whatever you want")
